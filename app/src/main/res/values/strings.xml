@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Black or White</string>
+    <string name="count">Count: %d</string>
+    <string name="sequence">Sequence: %1$s</string>
+</resources>

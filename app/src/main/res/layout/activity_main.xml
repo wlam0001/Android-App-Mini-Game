@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lenovotab.assignment1.MainActivity">
+
+<GridLayout
+    android:id="@+id/grid_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="4"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+
+>
+
+</GridLayout>
+    <GridLayout
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="5"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+
+    </GridLayout>
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/sequence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <Button
+        android:id="@+id/newGame"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="newGame"
+        android:text="Restart"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/solution"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="solution"
+        android:text="Auto"
+        android:layout_margin="5dp"
+        />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:onClick="testCase"
+            android:text="Test"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
